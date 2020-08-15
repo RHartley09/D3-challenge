@@ -1,0 +1,105 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 70px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #1a42af;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #d47842;
+  text-anchor: middle;
+}
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  fill: #1a5baf;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #ce7940;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: #5e54e7;
+  cursor: pointer;
+}
+
+.jumbotron {
+  background-image: url("manhattanhenge2-july-a67606741.jpg");
+  background-size: cover;
+}  
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+svg {
+  background-color: rgb(178, 198, 218);
+}
+
+.stateText {
+  font-family: sans-serif;
+  fill: #fff;
+  text-anchor: middle;
+}
+
+.chart {
+  display: block;
+  margin: 0;
+  background-color: #d47842;
+}
+
+body {
+  background-color: black;
+}
